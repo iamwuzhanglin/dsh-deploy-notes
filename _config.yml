@@ -1,0 +1,13 @@
+theme: jekyll-theme-cayman
+title: DSH 部署笔记
+description: DeepSeek Harness 在云服务器上的部署、systemd 常驻与通知配置记录
+show_downloads: false
+
+# 不显示 GitHub 自动生成页脚以外的内容
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
